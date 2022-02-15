@@ -5,3 +5,10 @@
   --color-pink: #b74e91;
   --color-white: #fff;
 }
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: source sans pro Arial, Helvetica, sans-serif;
+}
