@@ -83,3 +83,27 @@ p {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid var(--color-text-main);
 }
+/*Inputs*/
+.input__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 4px;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  color: var(--color-white);
+  font-size: 1.8rem;
+  height: 40px;
+  outline: none;
+  width: 200px;
+}
+input:focus,
+textarea:focus {
+  border: 2px solid var(--color-white);
+}
+.input__message {
+  height: 200px;
+  width: 100%;
+}
