@@ -176,3 +176,15 @@ textarea:focus {
   margin: 0 30px;
   height: 270px;
 }
+@media screen and (min-width: 975px) {
+  .offer {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: repeat(3, 350px);
+    align-items: center;
+  }
+  .offer__img {
+    width: 300px;
+    height: 100%;
+  }
+}
