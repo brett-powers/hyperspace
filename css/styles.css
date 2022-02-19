@@ -11,7 +11,6 @@ html {
 }
 body {
   font-family: source sans pro, Arial, Helvetica, sans-serif;
-  background: var(--color-pink);
 }
 h1,
 h2,
@@ -21,6 +20,7 @@ h4 {
 }
 h1 {
   font-size: 3.5rem;
+  margin-top: 0;
 }
 h2 {
   font-size: 2.3rem;
@@ -147,4 +147,17 @@ textarea:focus {
     height: 47px;
     width: 47px;
   }
+}
+/*Hero*/
+.hero {
+  background: var(--color-blueish-purple);
+  height: 380px;
+  display: flex;
+  align-items: center;
+}
+.hero__wrapper {
+  margin: 0 30px;
+}
+.hero__btn {
+  margin-top: 25px;
 }
