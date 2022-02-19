@@ -161,3 +161,16 @@ textarea:focus {
 .hero__btn {
   margin-top: 25px;
 }
+/*Offers*/
+.offer {
+  background: var(--color-blue);
+}
+.offer__img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.offer__text {
+  margin: 0 30px;
+  height: 250px;
+}
