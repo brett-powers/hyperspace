@@ -66,6 +66,23 @@ p {
     font-size: 2.3rem;
   }
 }
+/*Lists*/
+.list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+li {
+  margin-left: 15px;
+}
+li > a {
+  color: var(--color-text-main);
+  font-size: 17px;
+  transition: color 0.3s;
+}
+li > a:hover {
+  color: var(--color-white);
+}
 /* Buttons */
 .btn {
   background: none;
