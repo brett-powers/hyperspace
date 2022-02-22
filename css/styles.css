@@ -219,3 +219,18 @@ textarea:focus {
 .feature__icon {
   margin: 10px 15px;
 }
+@media screen and (min-width: 975px) {
+  .feature {
+    height: 1080px;
+  }
+  .feature__container {
+    margin: 0 60px;
+  }
+  .feature__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 250px);
+  }
+  .grid-item {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
